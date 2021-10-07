@@ -1,0 +1,107 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header img{
+    width: 100px;
+}
+
+header nav{
+    float: right;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+header nav ul li{
+    margin-left: 15px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #0037C6;
+    font-weight: bold;
+}
+
+header nav ul li a:hover{
+    color: white;
+    background-color: #0037C6;
+    font-weight: bold;
+}
+
+#banner img, #novidades img{
+    width: 450px;
+}
+
+#banner, #novidades {
+    background-color: #A1C7FF;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    column-gap: 10px;
+    margin: 5px;
+}
+
+#banner div, #novidades div{
+    width: 300px;
+    color: white;
+}
+
+@media screen and (min-width: 720px){
+    #banner, #novidades {
+        background-color: #A1C7FF;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 50px;
+        column-gap: 50px;
+        margin: 35px 0 35px 0;
+    }
+
+    #banner img, #novidades img{
+        width: 450px;
+    }
+    
+    #banner div, #novidades div{
+        width: 500px;
+        color: white;
+    }
+}
+
+.grupo-card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.senai-card{
+    width: 200px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.senai-card img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.senai-card div{
+    padding: 5px;
+    align-items: center;
+}
+
+#destaque h2, #mais {
+    text-align: center;
+}
+
+#carouselExampleCaptions{
+    width: 40vw;
+}
+
